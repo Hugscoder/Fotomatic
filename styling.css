@@ -1,0 +1,49 @@
+/* General styling */
+
+body {
+    margin: 0;
+}
+
+
+/* header - nav */
+
+header {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    height: 85px;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+.nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+
+li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+
+/* icon styling */
+
+.icon {
+    height: 16px;
+}
+
+
+/* media queries */
+
+@media only screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+}
