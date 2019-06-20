@@ -55,13 +55,14 @@ li {
 
 .join-module {
     align-items: center;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: column;
     background-color: #9DC20A;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
     padding: 32px 80px 40px 80px;
     width: fit-content;
-    margin-left: 100px;
+    margin-left: 5%;
 }
 
 .join-button {
@@ -74,8 +75,9 @@ li {
     font-size: 20px;
     height: 64px;
     justify-content: space-around;
+    text-align: center;
     width: 408px;
-    text-decoration: none;
+    
 }
 
 .module-title {
@@ -83,21 +85,28 @@ li {
     font-size: 50px;
     line-height: 0.2rem;
     color: white;
+    max-width: 408px;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    text-align: center;
+    
 }
 
 .module-supportin-copy {
     color: white;
     font-family: 'Roboto';
     font-size: 20px; 
-    line-height: 1.2rem;
-    margin-bottom: 2em;
+    line-height: 1.8rem;
+    margin-bottom: 1.5rem;
+    max-width: 408px;
+    text-align: center;
 }
 
 .cursive {
     font-family: 'Damion';
     font-size: 36px;
     color: white; 
-    line-height: 1.4rem;
+    line-height: 0rem;
 }
 
 /* icon styling */
