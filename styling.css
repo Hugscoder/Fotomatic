@@ -32,6 +32,10 @@ header {
     margin: 30px;
 }
 
+header a {
+    color: black;
+
+}
 
 li {
     list-style-type: none;
@@ -108,6 +112,69 @@ li {
     color: white; 
     line-height: 0rem;
 }
+
+
+/* Features sections */
+
+.feature-section {
+    background-color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+}
+
+.feature {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 635px;
+    justify-items: center;
+    padding: 32px 0px;
+    margin: 46px 38px 46px 38px;
+    text-align: center;
+    width: fit-content;
+    max-width: 600px;
+}
+
+.feature-img {
+    margin-bottom: 30px;
+    object-fit: cover;
+    width: 90%;
+    height: 65%;
+
+}
+
+.feature-description {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 187px;
+    
+}
+
+.feature-copy {
+    max-width: 80%; 
+}
+
+  /* text styling */
+
+.feature-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #4a4a4a;
+    line-height: 0.1rem;
+}
+
+.feature-copy {
+    font-size: 16px;
+    font-weight: lig;
+    color: #4a4a4a;
+    line-height: 1.5rem;
+    padding-top: 0;
+}
+
 
 /* icon styling */
 
