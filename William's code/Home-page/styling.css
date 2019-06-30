@@ -32,25 +32,6 @@ a {
         width: 24px;
         transition: 0.4s;
         }
-
-        /* Animation */
-
-        /* Rotate first bar */
-        .change .bar1 {
-            -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-            transform: rotate(-45deg) translate(-9px, 6px) ;
-        }
-
-        /* Fade out the second bar */
-        .change .bar2 {
-            opacity: 0;
-        }
-        
-        /* Rotate last bar */
-        .change .bar3 {
-            -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-            transform: rotate(45deg) translate(-8px, -8px) ;
-        }
         
         .sidenav {
             background-color: #292929;
@@ -61,6 +42,8 @@ a {
             position: fixed;
             right: 0;
             top: 0;
+            transition: 0.5s;
+            width: 0;
             z-index: 1;
             
         }
@@ -71,6 +54,7 @@ a {
             padding: 12px 28px;
             transition: 0.3s;
             font-size: 24px;
+            white-space: nowrap;
         }
 
         .sidenav a:hover {
@@ -139,6 +123,7 @@ li {
     align-items: center;
     
 }
+
 
 .join-module {
     align-items: center;
