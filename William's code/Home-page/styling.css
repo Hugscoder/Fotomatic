@@ -28,8 +28,8 @@ a {
     .bar1, .bar2, .bar3 {
         background-color: #292929;
         height: 2px;
-        margin: 6px 0px;
-        width: 23px;
+        margin: 7px 0px;
+        width: 24px;
         transition: 0.4s;
         }
 
@@ -78,10 +78,20 @@ nav {
     padding: 0;
 }
 
+.logo-mobile {
+    align-items: center;
+    display: flex;
+    height: 36px;
+}
+
 .logo {
     align-items: center;
     display: flex;
     justify-content: space-around;
+}
+
+.logo-media {
+    height: 24px;
 }
 
 li {
@@ -254,5 +264,23 @@ li {
     ul {
         display: none;
     }
+    
+    .icon {
+        height: 20px;
+    }
+
+    header {
+        padding: 24px 0px;
+    }
+
+    #hero-banner {
+        margin-top: 78px;
+        justify-content: space-around
+    }
+
+    .join-module {
+        margin: 0px;
+    }
+
     
 }
