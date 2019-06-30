@@ -2,44 +2,93 @@
 
 body {
     margin: 0;
+    font-size: 16px;
     font-family: 'Roboto';
-    color: black;
+    font-weight: 400;
 }
 
 a {
+    color: #292929;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;    
     text-decoration: none;
 }
 
-
 /* header - nav */
 
-header {
-    align-items: center;
-    background-color: #ffffff;
-    display: flex;
-    height: 85px;
-    justify-content: space-between;
-    padding: 0px 30px;
-    position: fixed;
-    top: 0%;
-    width: 100%;
+/* Burger menue */
+
+.burger {
+    display: inline-block;
+    cursor: pointer;
 }
 
-.nav {
-    align-items: center;
+    /* bar construction */
+    .bar1, .bar2, .bar3 {
+        background-color: #292929;
+        height: 2px;
+        margin: 6px 0px;
+        width: 23px;
+        transition: 0.4s;
+        }
+
+        /* Animation */
+
+        /* Rotate first bar */
+        .change .bar1 {
+            -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+            transform: rotate(-45deg) translate(-9px, 6px) ;
+        }
+
+        /* Fade out the second bar */
+        .change .bar2 {
+            opacity: 0;
+        }
+        
+        /* Rotate last bar */
+        .change .bar3 {
+            -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+            transform: rotate(45deg) translate(-8px, -8px) ;
+        }
+        
+
+    
+header {
+    background-color: #ffffff;
+    height: fit-content;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 13px 0px;
+}
+
+nav {
+    align-content: space-around;
+    color: #000000;
     display: flex;
     flex-direction: row;
-    margin: 30px;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px 30px;
+    
 }
 
-header a {
-    color: black;
+.nav-tabs {
+    padding: 0;
+}
 
+.logo {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 li {
+    display: inline-block;
     list-style-type: none;
-    margin-right: 30px;
+    margin-left: 20px;
+    text-decoration: none;
 }
 
 
@@ -186,16 +235,23 @@ li {
 /* media queries */
 
 @media only screen and (min-width: 768px) {
-    .mobile {
+    .icon {
         display: none;
     }
     .logo-mobile {
         display: none;
     }
+    .burger {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 768px) {
-    .desktop {
+    .logo-desktop {
+        display: none;
+    }
+
+    ul {
         display: none;
     }
     
