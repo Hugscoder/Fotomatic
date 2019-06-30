@@ -196,7 +196,7 @@ li {
 
 @media only screen and (max-width: 768px) {
     .desktop {
-        display; none;
+        display: none;
     }
     
 }

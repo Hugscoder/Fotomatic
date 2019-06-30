@@ -1,0 +1,9 @@
+Header structure:
+
+- Nav bar -
+
+Header bar (white background)
+    Content (main positionning attributes)
+        Logo (Desktop and mobile + media query)
+        Tabs (desktop and mbile + media query) - Displayed block - Paddin top and bottom
+            List items associated.
