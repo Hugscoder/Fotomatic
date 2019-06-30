@@ -52,6 +52,30 @@ a {
             transform: rotate(45deg) translate(-8px, -8px) ;
         }
         
+        .sidenav {
+            background-color: #292929;
+            float: right;
+            height: 100%;
+            overflow-x: hidden;
+            padding-top: 16px;
+            position: fixed;
+            right: 0;
+            top: 0;
+            z-index: 1;
+            
+        }
+
+        .sidenav a {
+            color: #ffffff;
+            display: block;
+            padding: 12px 28px;
+            transition: 0.3s;
+            font-size: 24px;
+        }
+
+        .sidenav a:hover {
+            opacity: 0.5;
+        }
 
     
 header {
@@ -252,6 +276,10 @@ li {
         display: none;
     }
     .burger {
+        display: none;
+    }
+
+    .side-nav {
         display: none;
     }
 }
